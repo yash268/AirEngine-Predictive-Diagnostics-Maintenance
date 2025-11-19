@@ -1,0 +1,7 @@
+resource "aws_kinesis_stream" "this" {
+  name        = var.name
+  shard_count = var.shard_count
+  retention_period = var.retention_hours * 60
+  encryption_type = "KMS"
+  tags = var.tags
+}

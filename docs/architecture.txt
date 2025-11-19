@@ -1,0 +1,1 @@
+Aircraft Sensors -> IoT/Kinesis -> PyFlink -> Firehose -> S3 Bronze -> Glue Silver -> Glue Gold -> SageMaker -> Grafana
