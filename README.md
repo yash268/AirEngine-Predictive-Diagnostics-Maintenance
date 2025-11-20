@@ -9,7 +9,7 @@ This project demonstrates comprehensive expertise in AWS Data Engineering, Strea
 
 ---
 
-##  System Architecture
+#  System Architecture
 
 
 ![aws (4)](https://github.com/user-attachments/assets/eb95bc6e-f9d2-4215-b83b-381afe0c8b9d)
@@ -17,9 +17,9 @@ This project demonstrates comprehensive expertise in AWS Data Engineering, Strea
 
 ---
 
-## Key Capabilities
+# Key Capabilities
 
-### Real-Time Engine Data Ingestion
+## Real-Time Engine Data Ingestion
 
 Aircraft engine IoT sensors publish continuous telemetry, including:
 
