@@ -17,9 +17,9 @@ This project demonstrates comprehensive expertise in AWS Data Engineering, Strea
 
 ---
 
-# Key Capabilities
+## Key Capabilities
 
-## Real-Time Engine Data Ingestion
+### Real-Time Engine Data Ingestion
 
 Aircraft engine IoT sensors publish continuous telemetry, including:
 
@@ -34,9 +34,9 @@ Data is ingested via MQTT into AWS IoT Core and forwarded to Amazon Kinesis Data
 
 ---
 
-# Real-Time Processing and Anomaly Detection
+## Real-Time Processing and Anomaly Detection
 
-## PyFlink on Kinesis Data Analytics (KDA)
+### PyFlink on Kinesis Data Analytics (KDA)
 
 A PyFlink application processes the streaming telemetry from Kinesis Data Streams and performs:
 
@@ -52,9 +52,9 @@ The PyFlink application outputs anomaly events and processed metrics directly to
 
 ---
 
-# Data Lake Architecture (Bronze → Silver → Gold)
+## Data Lake Architecture (Bronze → Silver → Gold)
 
-## Bronze — Raw Landing Zone
+### Bronze — Raw Landing Zone
 
 Kinesis Firehose delivers unprocessed engine telemetry into Amazon S3.  
 This zone stores the raw JSON messages exactly as received from the aircraft.  
@@ -62,7 +62,7 @@ It ensures traceability and serves as the foundation for batch ETL and ML traini
 
 ---
 
-## Silver — Clean and Structured Zone
+### Silver — Clean and Structured Zone
 
 AWS Glue processes the raw data into structured and cleaned Silver datasets:
 
@@ -76,7 +76,7 @@ Silver datasets are optimized for analytics and downstream feature engineering.
 
 ---
 
-## Gold — Feature-Engineered Lakehouse
+### Gold — Feature-Engineered Lakehouse
 
 AWS Glue further processes Silver datasets into Gold, performing:
 
@@ -95,9 +95,9 @@ Gold data is stored as Iceberg tables, enabling:
 
 ---
 
-# Machine Learning Workflow (Amazon SageMaker)
+## Machine Learning Workflow (Amazon SageMaker)
 
-## Training
+### Training
 
 SageMaker consumes the Gold Iceberg tables to train predictive models, including:
 
@@ -112,7 +112,7 @@ The training pipeline includes:
 - Validation based on flight timelines  
 - Model evaluation and metrics  
 
-## Inference
+### Inference
 
 The trained model generates predictions such as:
 
@@ -124,7 +124,7 @@ Model outputs are streamed into Grafana for monitoring.
 
 ---
 
-# Monitoring and Visualization (Grafana)
+## Monitoring and Visualization (Grafana)
 
 Grafana dashboards consolidate all operational and analytical insights, including:
 
@@ -195,7 +195,7 @@ This dataset is used for batch ETL, historical storage, ML feature engineering, 
 
 ---
 
-# ETL (AWS Glue — PySpark)
+## ETL (AWS Glue — PySpark)
 
 AWS Glue performs the batch ETL pipeline across the data lake:
 
@@ -215,7 +215,7 @@ Glue ensures that all downstream ML and analytics pipelines receive high-quality
 
 ---
 
-# Machine Learning (Amazon SageMaker)
+## Machine Learning (Amazon SageMaker)
 
 The ML pipeline consists of:
 
@@ -231,7 +231,7 @@ Outputs are integrated into Grafana dashboards for operational visibility.
 
 ---
 
-# End-to-End Workflow Summary
+## End-to-End Workflow Summary
 
 1. Aircraft sensors publish telemetry to AWS IoT Core  
 2. IoT Core routes data to Kinesis Data Streams  
@@ -244,7 +244,7 @@ Outputs are integrated into Grafana dashboards for operational visibility.
 
 ---
 
-# Skills Demonstrated
+## Skills Demonstrated
 
 - AWS IoT Core  
 - Amazon Kinesis Streams, Firehose, and KDA (PyFlink)  
