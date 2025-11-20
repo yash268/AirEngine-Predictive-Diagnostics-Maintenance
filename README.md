@@ -10,7 +10,8 @@ This project demonstrates expertise in **AWS Data Engineering**, **Terraform IaC
 
 ##  System Architecture
 
-![aws (8)](https://github.com/user-attachments/assets/ce891774-f18b-4b9b-9eaf-dc0eb434ab23)
+
+![aws (4)](https://github.com/user-attachments/assets/eb95bc6e-f9d2-4215-b83b-381afe0c8b9d)
 
 
 ---
