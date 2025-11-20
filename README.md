@@ -8,6 +8,13 @@ This project demonstrates expertise in **AWS Data Engineering**, **Terraform IaC
 
 ---
 
+##  System Architecture
+
+![aws (8)](https://github.com/user-attachments/assets/ce891774-f18b-4b9b-9eaf-dc0eb434ab23)
+
+
+---
+
 ##  Key Capabilities
 
 ###  Real-Time Engine Data Ingestion
@@ -63,13 +70,6 @@ Dashboards show:
 - Feature drift  
 - Kinesis ingestion rate  
 - Lambda errors  
-
----
-
-##  System Architecture
-
-![aws (8)](https://github.com/user-attachments/assets/ce891774-f18b-4b9b-9eaf-dc0eb434ab23)
-
 
 ---
 
