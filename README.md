@@ -68,7 +68,8 @@ Dashboards show:
 
 ##  System Architecture
 
-Full architecture description included in project...
+![aws (8)](https://github.com/user-attachments/assets/ce891774-f18b-4b9b-9eaf-dc0eb434ab23)
+
 
 ---
 
